@@ -1,6 +1,5 @@
 import React from "react"
 import { Toaster } from "react-hot-toast"
-import { Link, useNavigate } from "react-router-dom"
 import {
   useDeleteHeroMutation,
   useGetAllHeroesQuery,
@@ -10,9 +9,9 @@ import { Loader } from "../Loader"
 import { inintialHero } from "../../types/hero"
 import { HeroForm } from "../HeroForm"
 import { HeroCard } from "../HeroCard"
+import { BackButton } from "../BackButton"
 
 export const Heroes: React.FC = () => {
-  const navigate = useNavigate()
   const { data: heroes, isError, isLoading } = useGetAllHeroesQuery(100)
   const [deleteHero, { isError: isDeleteError }] = useDeleteHeroMutation()
   const [heroData, setHeroData] = React.useState(inintialHero)
@@ -37,16 +36,7 @@ export const Heroes: React.FC = () => {
               />
             </div>
 
-            <div
-              className="absolute top-1 left-10 px-6 cursor-pointer
-              py-1 rounded-md bg-gray-600 text-white max-[550px]:hidden"
-              onClick={() => navigate("/")}
-            >
-              Back
-            </div>
-            <span className="absolute top-0.5 left-1 text-2xl min-[550px]:hidden">
-              <Link to="/">&#8592;</Link>
-            </span>
+            <BackButton path="/" />
             <ul className="flex justify-center flex-wrap gap-3 xl:justify-start">
               {heroes &&
                 heroes.map((hero) => (

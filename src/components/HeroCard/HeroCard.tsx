@@ -34,7 +34,7 @@ export const HeroCard: React.FC<Props> = ({ hero, remove, isError }) => {
       heroData.name === hero.name &&
       heroData.superpowers === hero.superpowers
     ) {
-      toast.error("None of the fields have been changed")
+      toast.success("None of the fields have been changed")
       setIsEditClicked(false)
 
       return
