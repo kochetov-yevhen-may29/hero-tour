@@ -1,0 +1,54 @@
+{
+  "heroes": [
+    {
+      "id": 12,
+      "name": "asdfasfd",
+      "superpowers": "asdfasdf"
+    },
+    {
+      "id": 13,
+      "name": "Bombasto",
+      "superpowers": "Bombs"
+    },
+    {
+      "id": 14,
+      "name": "Celeritas",
+      "superpowers": "Super Speed"
+    },
+    {
+      "id": 15,
+      "name": "Magneta",
+      "superpowers": "Magnetic Control"
+    },
+    {
+      "id": 16,
+      "name": "RubberMan",
+      "superpowers": "Elasticity"
+    },
+    {
+      "id": 17,
+      "name": "Dynama",
+      "superpowers": "Electrokinesis"
+    },
+    {
+      "id": 18,
+      "name": "Dr. IQ",
+      "superpowers": "Super Intelligence"
+    },
+    {
+      "id": 19,
+      "name": "Magma",
+      "superpowers": "Lava Control"
+    },
+    {
+      "id": 20,
+      "name": "Tornado",
+      "superpowers": "Air Manipulation"
+    },
+    {
+      "name": "asdf",
+      "superpowers": "asdf",
+      "id": 21
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  
+  "css.customData": [".vscode/css_custom_data.json"],
+  "css.lint.unknownProperties": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "less.lint.unknownProperties": "ignore",
+  "scss.lint.unknownProperties": "ignore",
+}

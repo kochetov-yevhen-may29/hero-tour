@@ -1,0 +1,14 @@
+.notFound {
+  padding-top: 150px;
+  line-height: 1.5;
+  text-align: center;
+  }
+
+  .notFound__title {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .notFound__message {
+    font-size: 18px;
+  }
